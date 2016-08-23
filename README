@@ -1,0 +1,34 @@
+# It's a README file
+
+Web-Academy
+Home work #1
+by Vag
+
+Tasks:
+- create git project for Vagrantfile, provision files, wordpress sources
+- download, unzip wordpress to wordpress-sources
+- create Vagrantfile for frontend/web (1 CPU, 512 MB, privat and public netw, sync-folder "~/your/project/path/worpress-sources" "/var/www/wordpress") and backend/db (1 CPU, 512 MB, privat netw, shell provision db_config.sh)
+- db_config.sh would be create the DB for wordpress, create the db user and right for db user
+- edit wp_config.php for connecting to db
+
+Success Criteria:
+1. Backend:
+-> MySQL is up and running
+-> MySQL is available from frontend/web vm
+-> There is db user/password/right in MySQL
+2. Frontend:
+-> Apache HTTPD is up and running 
+-> wordpress is available fron privat and public netw
+-> all checnging to wordpress-sources is present on frontend/web vm after reboot
+
+Documentaions:
+
+- Vagrant :: https://docs.vagrantup.com/v2/
+
+- CentOS :: https://www.centos.org
+
+- Ubuntu :: http://www.ubuntu.com
+
+- VirtualBox :: http://www.virtualbox.org/manual/
+
+- GitHub :: https://github.com
